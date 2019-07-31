@@ -18,4 +18,7 @@ public interface ItemClient {
     @RequestMapping("item/get_item")
     String getItem();
 
+    @RequestMapping("item/list_item")
+    String listItem();
+
 }

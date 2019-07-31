@@ -18,4 +18,9 @@ public class ItemController {
         return "你真的是太好了!!";
     }
 
+    @RequestMapping("/list_item")
+    public String listItem() {
+        return "hahahahahaha";
+    }
+
 }

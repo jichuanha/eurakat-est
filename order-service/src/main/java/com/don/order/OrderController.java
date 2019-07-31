@@ -27,4 +27,13 @@ public class OrderController {
         log.info("item +++:{}", item);
         return item;
     }
+
+
+    @GetMapping("/list_item")
+    public String listItem() {
+
+        String item = itemClient.listItem();
+        log.info("item +++:{}", item);
+        return item;
+    }
 }
