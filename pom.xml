@@ -12,6 +12,8 @@
         <module>eureka-service</module>
         <module>order-service</module>
         <module>item-service</module>
+        <module>eureka-service2</module>
+        <module>eureka-service3</module>
     </modules>
 
 
